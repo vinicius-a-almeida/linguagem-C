@@ -20,12 +20,14 @@ int main (){
     return 0;
 }
 int area (int r){
-    int a, pi=3.14159;
+    int a;
+    float pi=3.14159;
     a = pi * (r*r);
     return (a);
 }
 int circulo(int r){
-    int c, pi=3.14159;
+    int c;
+    float pi=3.14159;
     c = 2*pi*r;
     return (c);
 }
