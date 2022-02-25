@@ -1,16 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-int main (){
-	int vet [10], i, soma=0;
-	for(i=0;i<10;i++){
-		printf("digite o %dº número: ", i+1);
-		scanf("%d", &vet[i]);
-		if(vet[i]%2!=0){
-			soma = vet[i] + soma;
-		}
-	}
-	printf("a soma dos números impares é: %d", soma);
-	system("pause");
-	return 0;
+int main(){
+    int a, b, c, d;
+    double n1,n2, res;
+    scanf("%d%d%lf", &a, &b, &n1);
+    scanf("%d%d%lf", &c,&d,&n2);
+    res = (b*n1)+(d*n2);
+    printf("VALOR A PAGAR: R$ %.2lf\n", res);
+    return(0);
 }
